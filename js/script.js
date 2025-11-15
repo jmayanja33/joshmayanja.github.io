@@ -82,7 +82,7 @@ function displayRepositories(repos) {
                 ${repo.language ? `<span>💻 ${repo.language}</span>` : ''}
             </div>
             <div class="repo-links">
-                <a href="repo-pages/${repo.name}.html" class="repo-link">Details</a>
+                <a href="project-pages/${repo.name}.html" class="repo-link">Details</a>
                 <a href="${repo.html_url}" target="_blank" class="repo-link">View on GitHub</a>
             </div>
         `;
