@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automated Grading - Josh Mayanja</title>
+    <title>Modeling Spreads - Josh Mayanja</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -24,26 +24,28 @@
 
     <main class="container">
         <div class="page-header">
-            <h1>Predicting Student Essay Scores Using Document Embeddings and Neural Networks</h1>
-            <a href="https://github.com/jmayanja33/automated-grading" target="_blank" class="download-btn">View on GitHub</a>
+            <h1>Modeling NFL Spreads and Point Totals</h1>
+            <a href="https://github.com/jmayanja33/modeling-spreads" target="_blank" class="download-btn">View on GitHub</a>
         </div>
 
         <div class="content-section">
             <div class="interest-category">
                 <h2>Description</h2>
-                <p>
-                    This project was taken on for a Kaggle competition, where we were given a dataset of student
-                    written essays, and had to create a model which automatically scored each essay. By embedding each
-                    essay using the FlagEmbedding model, we were able to train a Neural Network that scored each
-                    document, on average, within roughly half a point of it's true score. This model was very
-                    competitive in a competition field of over 2000 teams.
+                <p>Completed for a master's level computer science course, we developed a python library which helps
+                    people make smarter, more informed NFL bets. Once started, the browser based dashboard included in
+                    this library will allow a person to select a team from a dropdown list a the top of the page.
+                    The predicted score for the selected team, and the opponent team will be predicted using a random
+                    forest. The team scores are displayed, along with the total score, spread, and distribution of
+                    predictions provided by the model. The most decisive team stats for the predictions are displayed
+                    in a side-by-side bar chart for easy comparison.
                 </p>
             </div>
 
             <div class="interest-category">
                 <h2>Key Features</h2>
                 <ul style="margin-left: 2rem; margin-top: 0.5rem;">
-                    <li>Regression model which calculated a numerical grade for student written essays</li>
+                    <li>Prediction model for the number of points each an NFL team will score against a given opponent</li>
+                    <li>Web dashboard to predict the winner, point spread, and point total of an NFL game</li>
                 </ul>
             </div>
 
@@ -51,12 +53,11 @@
                 <h2>Technologies Used</h2>
                 <ul style="margin-left: 2rem; margin-top: 0.5rem;">
                     <li>Python</li>
-                    <li>Tensorflow</li>
-                    <li>Doc2Vec</li>
-                    <li>Hugging Face</li>
-                    <li>pandas</li>
-                    <li>numpy</li>
-                    <li>matplotlib</li>
+                    <li>scikit-learn</li>
+                    <li>Plotly</li>
+                    <li>Docker</li>
+                    <li>Flask</li>
+                    <li>PostgreSQL</li>
                 </ul>
             </div>
 
